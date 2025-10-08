@@ -47,7 +47,7 @@ export default defineConfig({
         text: "Examples",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Markdown Examples2", link: "/markdown-examples" },
+          // { text: "Markdown Examples2", link: "/markdown-examples" },
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
@@ -65,7 +65,7 @@ export default defineConfig({
           { text: "快速上手", link: "/getting-started" },
           { text: "配置", link: "/configuration" },
           { text: "页面", link: "/page" },
-          { text: "Frontmatter", link: "/frontmatter" },
+          { text: "Frontmatter", link: "/try/frontmatter" },
         ],
       },
       {
