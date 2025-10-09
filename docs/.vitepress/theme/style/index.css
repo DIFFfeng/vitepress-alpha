@@ -1,2 +1,6 @@
 /* index.css */
 @import './var.css';
+/* 导航栏毛玻璃效果 */
+@import './navBlur.css';
+/* 隐藏横条 */
+@import './hidden.css';
