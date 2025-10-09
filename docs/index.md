@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: API Examples2
       link: /api-examples
+  image: 
+    src: /logo_white.png
+    alt: 网页heroのlogo图标
 
 features:
   - title: Feature A
