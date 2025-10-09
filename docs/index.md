@@ -29,3 +29,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<!-- 首页加入五彩纸屑的组件效果，参考链接：  -->
+<confetti />
+
