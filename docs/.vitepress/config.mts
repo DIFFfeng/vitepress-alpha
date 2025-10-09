@@ -4,6 +4,8 @@ import { devDependencies } from "../../package.json"; // 读取package.json中�
 export default defineConfig({
   title: "VitePress title",
   description: "A Vitepress Site description",
+
+  // #region 主题配置
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 参考文档：https://vitepress.yiov.top/page 这按照顺序编写配置
@@ -129,26 +131,26 @@ export default defineConfig({
 
     //上次更新时间
     lastUpdated: {
-      text: '最后更新于',
+      text: "最后更新于",
       formatOptions: {
-        dateStyle: 'short', // 可选值full、long、medium、short
-        timeStyle: 'medium' // 可选值full、long、medium、short
+        dateStyle: "short", // 可选值full、long、medium、short
+        timeStyle: "medium", // 可选值full、long、medium、short
       },
     },
 
     //自定义上下页名
-    docFooter: { 
-      prev: '上一页', 
-      next: '下一页', 
-    }, 
-    
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+
     // VitePress 内置了对 Carbon 广告 的原生支持 => https://www.carbonads.net/
-    carbonAds: { 
-      code: 'your-carbon-code', 
-      placement: 'your-carbon-placement', 
-    }
+    carbonAds: {
+      code: "your-carbon-code",
+      placement: "your-carbon-placement",
+    },
   },
-  /* themeconfig结尾 */
+  // #endregion themeConfig主题配置
 
   //fav图标
   head: [["link", { rel: "icon", href: "/烽驭科创.ico" }]],
@@ -162,4 +164,11 @@ export default defineConfig({
   } */
 
   lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
+
+  markdown: {
+    lineNumbers: true, // 代码行号
+    image: {
+      lazyLoading: true, //图片懒加载
+    },
+  },
 });
