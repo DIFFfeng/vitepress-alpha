@@ -6,3 +6,5 @@
 @import './hidden.css';
 /* MacOS 代码块风格 */
 @import './cp-code.css';
+/* 侧边栏图标 */
+@import './sidebarIcon.css';
